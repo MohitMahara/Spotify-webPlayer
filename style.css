@@ -1,0 +1,408 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* nav bar */
+
+.nav-bar {
+    background-color: black;
+    width: 100%;
+    position: sticky;
+}
+
+.nav-brand img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.nav-brand {
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #a7a7a7;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-item-list {
+    align-items: center;
+    gap: 40px;
+    padding-top: 16px;
+    padding-right: 40px;
+}
+
+.login {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: black;
+}
+
+.nav-items-container {
+    justify-content: space-between;
+}
+
+.button img {
+    width: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.click {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0.8px solid grey;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: black;
+    color: red;
+    letter-spacing: 6px;
+    box-shadow: 2px red;
+}
+
+/* utility CLASSES */
+.flex {
+    display: flex;
+}
+
+/* activity container */
+
+.aside-container {
+    position: sticky;
+    width: 22%;
+}
+
+aside {
+    background-color: black;
+    color: #a7a7a7;
+    height: 76vh;
+    position: relative;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.aside-element {
+    padding-left: 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.aside-element img {
+    width: 30px;
+}
+
+.aside-element {
+    gap: 20px;
+}
+
+.aside-text {
+    padding-top: 6px;
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.aside-link:hover~.aside-text {
+    color: #fff;
+}
+
+.aside-text:hover {
+    color: #fff;
+}
+
+.aside-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home {
+    color: #fff;
+}
+
+/* Songs */
+
+.songs {
+    height: 76vh;
+    width: 78%;
+    overflow: scroll;
+    padding: 30px 20px;
+}
+
+.songs::-webkit-scrollbar {
+    display: none;
+}
+
+.main-container {
+    width: 100%;
+    height: 75vh;
+}
+
+.song-card {
+    height: 260px;
+    width: 180px;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #191A19;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1s ease-out;
+}
+
+.song-card img {
+    height: 160px;
+    width: 170px;
+    padding: 10px;
+}
+
+.song-card:hover {
+    background-color: rgb(19, 18, 18);
+}
+
+
+.first-row {
+    flex-direction: column;
+    gap: 10px;
+    height: 22rem;
+}
+
+.row-text {
+    padding-left: 10px;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row-text h5 {
+    color: #a7a7a7;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.cards-container {
+    justify-content: space-between;
+    padding: 40px 25px;
+}
+
+.row-text h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.row-text h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-heading {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+.card-para {
+    color: #a7a7a7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+
+.second-row {
+    flex-direction: column;
+    gap: 10px;
+    height: 26rem;
+}
+
+
+/* playing cards */
+
+.playing-card {
+    height: 32rem;
+    gap: 40px;
+    position: relative;
+    justify-content: center;
+}
+
+
+.one {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/wrost.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/snap1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.three {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/besabriya.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.four {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/jeena\ jeena.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.five {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/merijaan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.six {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/glitch1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seven {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/old2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eight {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/house1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nine {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/amitomake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ten {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('images/feeling1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Display {
+    display: none;
+}
+
+.playing-card-text {
+    font-size: 70px;
+    position: absolute;
+    bottom: 20px;
+    color: #a7a7a7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    box-shadow: 1px 1px red;
+}
+
+
+/* footer */
+footer {
+    background-color:black;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    color: grey;
+    transition: 0.2s ease-out;
+    border-top:0.5px solid grey;
+}
+
+.footer-icon {
+    justify-content: center;
+    gap: 22px;
+}
+
+.footer-icon i:hover {
+    cursor: pointer;
+    box-shadow: 0 0 black;
+}
+
+.footer-container {
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+.audio-progress {
+
+padding-top: 10px;}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+
+}
+.icon-container{
+    width: 80vw;
+    justify-content: center;
+    position:relative
+}
+
+.song-info{
+position: absolute;
+left: 0;
+gap: 10px;
+align-items: center;
+font-family: 'Poppins',sans-serif;
+font-weight: 600;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: 1s ease-out;
+}
+
+ .song-bg{
+    width: 60px;
+    height: 40px;
+    padding-bottom: 10px;
+    color: #181818;
+}
+
+
+input[type=range]::-webkit-slider-thumb{
+    background-color: red;
+}
+
+.music-playing-icon{
+    width: 70px;
+    opacity: 0;
+    transition: 1s ease-out;
+}
