@@ -1,0 +1,206 @@
+/* Tablets */
+
+@media screen and (max-width:769px) {
+
+    .nav-bar {
+        height: 10vh;
+        position: relative;
+    }
+
+    .nav-item-list {
+        gap: 20px;
+    }
+
+    .nav-item-container {
+        gap: 20px;
+    }
+
+
+    .nav-brand img {
+        width: 15vw;
+        position: absolute;
+        left: 5px;
+    }
+
+
+    .click {
+        display: none;
+    }
+
+footer{
+    height: 15vh;
+}
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:468px) {
+    .nav-bar {
+        height: 10vh;
+        position: relative;
+    }
+
+    .nav-item-container {
+        align-items: center;
+        position: relative;
+    }
+
+    .toggle-div {
+        display: initial;
+    }
+
+    .nav-item-list {
+        position: absolute;
+        flex-direction: column;
+        background-color: black;
+        width: 35vw;
+        overflow: visible;
+        height: 32vh;
+        gap: 22px;
+        border-radius: 8px;
+        top: 110%;
+        padding-left: 10px;
+        font-size: 0.7rem;
+        opacity: 0;
+        right: 0;
+    }
+
+    .nav-item-list.active {
+        opacity: 1;
+    }
+
+
+    .aside-element {
+        flex-direction: column;
+        font-size: 0.7rem;
+        padding-left: 1rem;
+        gap: 10px;
+    }
+
+    aside {
+        gap: 20px;
+        padding-top: 1.5rem;
+    }
+
+    .nav-brand img {
+        width: 30vw;
+        position: absolute;
+        left: 5px;
+    }
+
+    .login {
+        font-size: 0.6rem;
+        font-weight: 600;
+        padding: 0.6rem;
+        border-radius: 10px;
+    }
+
+    .button {
+        display: flex;
+        width: 20%;
+    }
+
+    .click {
+        display: none;
+    }
+
+    .aside-text {
+        padding-top: 0px;
+    }
+
+    .icon-container {
+        width: 100vw;
+    }
+
+    .song-info-text {
+        width: 20vw;
+    }
+
+    .cards-container {
+        overflow: scroll;
+    }
+
+    .first-row {
+        height: 52vh;
+    }
+
+    .song-info {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .music-playing-icon {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.6rem;
+    }
+
+    .songs {
+        padding: 20px 0px;
+        height: 70vh;
+    }
+
+    .main-container {
+        height: 70vh;
+    }
+
+    #myProgressBar {
+        width: 70vw;
+    }
+
+    .song-bg {
+        height: 6vh;
+        width: 15vw;
+    }
+
+    .playing-card {
+        height: 100%;
+    }
+
+    .playing-card-text {
+        font-size: 1.5rem;
+    }
+
+    .footer-icon {
+        gap: 15px;
+    }
+
+    footer {
+        height: 18vh;
+    }
+
+
+}
+
+
+/* media for height */
+
+@media screen and (max-height:579px) {
+
+    .first-row {
+        height: 65vh;
+    }
+
+    footer {
+        height: 20vh;
+    }
+
+    .nav-item-list {
+        width: 35vw;
+        height: 40vh;
+        gap: 20px;
+    }
+
+}
