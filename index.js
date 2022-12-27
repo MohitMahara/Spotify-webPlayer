@@ -9,6 +9,13 @@ for (var i = 0; i < length; i++) {
     });
 }
 
+// toggler click
+
+document.getElementById("nav-toggle").addEventListener("click",function(){
+document.getElementById("nav-item-list").classList.toggle("active");
+});
+
+
 // selecting audios for stop and play audio.
 
 var one = document.querySelector("#callYou");
